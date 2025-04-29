@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root{
+ --white: #FBFFF3; 
+ --tomato: #FFC64A;
+ --jet: #3E3538;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    margin: 0;
+    max-width: 393px;
+    background-color: var(--white);
+}
+
+header{
+    background-color: var(--tomato);
+
+}
+
+.logoburger{
+    display: flex;
+    gap: 125px;
+    padding-bottom: 150px;
+
+}
+
+
+.logo{
+max-width: 150px;
+
+}
+
+.burger{
+max-width: 50px;
+}
+
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar img{
+ max-width: 50px;
+}
+
+
+
+
+
+.important img{
+    max-width: 393px;
+}
