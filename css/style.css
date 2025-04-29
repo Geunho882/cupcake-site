@@ -104,3 +104,21 @@ padding-bottom: 50px;
 max-width: 100px;
 
 }
+
+.viewall{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.gold{
+    padding-top: 50px;
+    background-color: var(--tomato);
+
+}
+
+.gold img{
+    max-width: 393px;
+}
